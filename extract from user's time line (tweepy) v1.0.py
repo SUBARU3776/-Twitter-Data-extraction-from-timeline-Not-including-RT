@@ -47,6 +47,7 @@ outtweets = [[tweet.id_str,
               tweet.full_text.replace('\n', ' ').encode('utf-8').decode('utf-8')]
              for tweet in all_tweets]
 
+# Please refer to the API reference index for the data that can be obtained.
 df = DataFrame(outtweets, columns=['id', 'created_at', 'favorite_count', 'retweet_count', 'text'])
 df.to_csv(f"{user_screen_name}_tweets_{timestamp}.csv", index=False)
 df.head(3)
