@@ -16,7 +16,7 @@ auth.set_access_token(AT, AS)
 api = tweepy.API(auth, wait_on_rate_limit=True)
 
 # Specify screen name
-user_screen_name = "_SUBARU_3776_"
+user_screen_name = "hogehoge"
 
 # Use the API to retrieve the latest 200 tweets
 all_tweets = []
