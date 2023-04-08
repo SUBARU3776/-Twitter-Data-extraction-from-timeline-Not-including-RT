@@ -12,7 +12,9 @@
 - 取得したツイートをcsvファイルに保存する。保存される情報は、ツイートのID、作成日時、いいね数、リツイート数、およびテキスト本文である。
 - pandasデータフレームを使用して、保存されたツイートの最初の3つを表示する。<br>
 
-#### 実行にはTwitter APIの認証情報が必要です。<br><br>
+#### 実行にはTwitter APIの認証情報が必要です。
+##### 取得できるデータについては、APIリファレンスインデックスをご参照ください。
+https://developer.twitter.com/en/docs/api-reference-index<br>
 *************************************************************************************************************************************************************************
 ### This script is used to retrieve the 200 most recent tweets for a given Twitter account and generate a csv file containing this information.
 
@@ -27,3 +29,5 @@
 - Save the retrieved tweets in a csv file. The information to be saved is the ID of the tweet, creation date and time, number of likes, number of retweets, and text body.
 - Use the pandas data frame to display the first three stored tweets.<br>
 ### Use the pandas data frame to display the first three saved tweets.
+#### Please refer to the API reference index for the data that can be obtained.
+https://developer.twitter.com/en/docs/api-reference-index
