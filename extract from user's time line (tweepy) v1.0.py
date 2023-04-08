@@ -15,7 +15,7 @@ auth = tweepy.OAuthHandler(CK, CS)
 auth.set_access_token(AT, AS)
 api = tweepy.API(auth, wait_on_rate_limit=True)
 
-# Specify screen name
+# Specify screen name(Example:@hogehoge)
 user_screen_name = "hogehoge"
 
 # Use the API to retrieve the latest 200 tweets
