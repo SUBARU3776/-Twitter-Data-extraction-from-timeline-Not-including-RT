@@ -24,5 +24,6 @@
 - The acquired tweets are retrieved in full-text mode, excluding retweets. The acquired tweets are added to the list.
 - The ID of the oldest tweet retrieved is saved and used to retrieve the next oldest tweet.
 - The process is repeated to retrieve all available tweets.
-- Save the retrieved tweets in a csv file. The information to be saved is the ID of the tweet, creation date and time, number of likes, number of retweets, and text body.<br>
+- Save the retrieved tweets in a csv file. The information to be saved is the ID of the tweet, creation date and time, number of likes, number of retweets, and text body.
+- Use the pandas data frame to display the first three stored tweets.<br>
 ### Use the pandas data frame to display the first three saved tweets.
