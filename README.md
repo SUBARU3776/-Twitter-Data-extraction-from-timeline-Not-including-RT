@@ -1,4 +1,4 @@
-# Twitter-Data-extraction-from-timeline
+# Twitter-Data-extraction-from-timeline(Not including RT)
 ### このスクリプトは、指定したTwitterアカウントの最新200件のツイートを取得し、それらの情報を含むデータをcsvファイルに書き出すためのものです。
 
 #### 具体的には、以下の作業が行われます。
