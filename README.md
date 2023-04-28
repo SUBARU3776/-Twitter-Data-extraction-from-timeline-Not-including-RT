@@ -15,6 +15,7 @@
 #### 実行にはTwitter APIの認証情報が必要です。
 ##### 取得できるデータについては、APIリファレンスインデックスをご参照ください。
 https://developer.twitter.com/en/docs/api-reference-index<br>
+※ Python 3.11.1での動作確認済み
 *************************************************************************************************************************************************************************
 ### This script is used to retrieve the 200 most recent tweets for a given Twitter account and generate a csv file containing this information.
 
@@ -30,4 +31,5 @@ https://developer.twitter.com/en/docs/api-reference-index<br>
 - Use the pandas data frame to display the first three stored tweets.<br>
 ### Use the pandas data frame to display the first three saved tweets.
 #### Please refer to the API reference index for the data that can be obtained.
-https://developer.twitter.com/en/docs/api-reference-index
+https://developer.twitter.com/en/docs/api-reference-index<br>
+※ tested the operation with Python 3.11.1
